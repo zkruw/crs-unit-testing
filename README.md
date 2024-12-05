@@ -24,3 +24,27 @@ The intention of this project is to demonstrate how to write unit tests for a Ty
 To start the application, run:
 ```sh
 pnpm start
+```
+
+## Running Tests
+To run the tests, use:
+```sh
+pnpm test
+```
+This will execute the unit tests defined in the src/__tests__/ folder.
+
+## Project Structure
+```sh
+src/index.ts: Entry point of the application.
+src/todo.ts: Contains functions to interact with the SQLite database.
+src/db.ts: Contains the database connection logic.
+src/__tests__/todo.test.ts: Contains unit tests for the application
+```
+## Usage
+When prompted, choose an action:
+```sh
+[1] Add Todo
+[2] List Todos
+[3] Mark Done
+```
+Follow the prompts to add a task, list all tasks, or mark a task as done.
